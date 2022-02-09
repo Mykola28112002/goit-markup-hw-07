@@ -1,0 +1,33 @@
+/* Чим займаємось */
+.employment__title {
+font-weight: $font-weight-bold;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+color: $main-text-color;
+margin-bottom: 50px;
+}
+.employment.section {
+  padding-top: 0;
+}
+.employment__item:not(:last-child) {
+  margin-right: 30px;
+}
+.employment__blosk {
+  position: relative;
+}
+.employment__text {
+height: 70px;
+  position: absolute;
+  width: 100%;
+background: rgba(47, 48, 58, 0.8);
+transform: translateY(calc(-100%));
+font-weight: 700;
+font-size: 14px;
+line-height: 1.2;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+}

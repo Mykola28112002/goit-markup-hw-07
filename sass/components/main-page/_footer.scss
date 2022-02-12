@@ -1,74 +1,106 @@
 /* footer */
-.footers__logo-studios {
-  color: #FFFFFF;
-}
+
 .footers {
   background: $footer-bascground;
   padding: 60px 0;
+  &--flex {
+  display: flex;
+  align-items: baseline;
 }
-.footers__contact {
-font-size: 14px;
-line-height: 1.7;
-font-style: normal;
+}  
+
+.footers__logo-studios {
+  color: #FFFFFF;
 }
-.footers__contacts-address {
-color: #FFFFFF;
-text-decoration: none;
-}
-.footers__contacts-email {
-  display: inline-block;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
-}
-.footers__contacts-tel {
-  display: inline-block;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
+.footers__logo {
+  color: #2196F3;
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: $font-weight-bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
- .footers__links {
+
+.address {
   margin-top: 20px;
 }
- .footers__link {
+.address__contact {
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+.address__link {
   margin-bottom: 9px;
 }
-.footers__title {
-font-weight: $font-weight-bold;
-font-size: 14px;
-line-height: 16px;
-text-transform: uppercase;
-color: #FFFFFF;
+.address__maps {
+  color: #FFFFFF;
+  text-decoration: none;
 }
-.footers__social {
+.address__contacts-email {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.address__contacts-tel {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+
+
+.social {
   margin-left: 70px;
-  & .footers__link:hover,
-& .footers__link:focus {
-  background-color: #2196F3;
 }
-}
-.footers__social-margin-top {
+.social__margin-top {
   margin-top: 20px;
+  display: flex;
+  align-items: baseline;
 }
-.footers__social .footers__items:not(:last-child) {
-margin-right: 10px;
+.social__title {
+  font-weight: $font-weight-bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
-.footers__social .footers__link {
+.social__items:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__link {
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
-border: 1px ;
-border-radius: 50%;
+  border: 1px ;
+  border-radius: 50%;
   padding: 12px;
   display: block;
-fill: #fff;
+  fill: #fff;
 
- transition-property: background-color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #2196F3;
+  }
 }
-
-
-.footers__imgs {
+.social__imgs {
   width: 20px;
   height: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -16,6 +16,9 @@ color: #212121;
 
 .js-box {
   text-decoration: none;
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
 }
 
 .js-box__svg {
@@ -24,9 +27,7 @@ color: #212121;
   height: 13px;
   transform: translateY(+14px) translateX(-435px); 
 }
-.js-box:not(:first-child) {
-  margin-top: 10px;
-}
+
 .js-box__label {
   position: relative;
   display: block;

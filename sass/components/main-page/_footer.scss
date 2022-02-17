@@ -52,6 +52,9 @@
 
 .social {
   margin-left: 70px;
+  &__items:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 .social__margin-top {
   margin-top: 20px;
@@ -65,9 +68,7 @@
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.social__items:not(:last-child) {
-  margin-right: 10px;
-}
+
 
 .social__link {
   width: 44px;

@@ -3,11 +3,12 @@
 .employment {
   display: flex;
   justify-content: space-between;
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.employment__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .employment__box {
   position: relative;
 

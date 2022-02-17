@@ -37,12 +37,13 @@ line-height: 1.2;
   margin-left: 93px;
   display: flex;
 }
-.site-navigation__item:not(:last-child) {
-  margin-right: 50px;
-}
+
 .site-navigation__item {
   display: block;
   position: relative;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 .site-navigation__link {
   display: block;
@@ -88,10 +89,11 @@ line-height: 1.2;
   margin-left: auto;
   display: flex;
   align-items: center;
-}
-.contacts__item:not(:last-child) {
+  &__item:not(:last-child) {
   margin-right: 30px;
 }
+}
+
 .contacts__link {
   display: inline-flex;
   font-weight: $font-weight-medium;
